@@ -14,7 +14,7 @@ var image = [
    
   document.body.style.backgroundColor = color[num];
   document.body.style.backgroundImage = "url('"+ image[num] + "')";
-  document.body.style.backgroundSize = "auto auto";
+  document.body.style.backgroundSize = "cover cover";
   t = setTimeout(function(){myFunction()}, 3600000)
 }
 
